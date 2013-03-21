@@ -1,7 +1,7 @@
 CedarPlywood
 =============
 
-Custom Comparators for [Cedar][]. Why not in Cedar itself? [Cedar][] requires that only Foundation is a requirement.
+Custom Comparators for [Cedar][]. Why not in Cedar itself? Cedar mandates that only Foundation is a requirement.
 
 To use, copy all the files from **CedarPlywood/Headers/** to your own project. And add the following to your prefix.pch (or before whenever you include Cedar):
 
