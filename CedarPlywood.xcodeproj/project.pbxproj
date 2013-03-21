@@ -63,7 +63,6 @@
 		1FB9906F16FAD24F00854971 /* UIKitMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitMatchers.h; sourceTree = "<group>"; };
 		1FB9907116FAD37400854971 /* CGMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGMatchers.h; sourceTree = "<group>"; };
 		1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGMatchersSpec.mm; sourceTree = "<group>"; };
-		1FB9907416FAD4FD00854971 /* AllMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllMatchers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +124,7 @@
 		1FB9903F16FAC5B200854971 /* CedarPlywood */ = {
 			isa = PBXGroup;
 			children = (
-				1FB9906E16FAD21800854971 /* Matchers */,
-				1FB9907416FAD4FD00854971 /* AllMatchers.h */,
-				1FB9904216FAC5B200854971 /* CedarPlywood.h */,
+				1FB9907516FAD7CE00854971 /* Headers */,
 				1FB9904016FAC5B200854971 /* Supporting Files */,
 			);
 			path = CedarPlywood;
@@ -177,6 +174,15 @@
 				1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */,
 			);
 			path = Matchers;
+			sourceTree = "<group>";
+		};
+		1FB9907516FAD7CE00854971 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9906E16FAD21800854971 /* Matchers */,
+				1FB9904216FAC5B200854971 /* CedarPlywood.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
