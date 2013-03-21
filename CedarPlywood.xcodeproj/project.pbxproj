@@ -86,6 +86,8 @@
 		1FB9908A16FADC9300854971 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
 		1FB9908C16FADC9800854971 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		1FB9908E16FADCA700854971 /* CGMatchersSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGMatchersSpec.mm; sourceTree = "<group>"; };
+		1FB9909216FAEA4600854971 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1FB9909316FAEA5500854971 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,8 @@
 		1FB9903116FAC5B200854971 = {
 			isa = PBXGroup;
 			children = (
+				1FB9909316FAEA5500854971 /* LICENSE */,
+				1FB9909216FAEA4600854971 /* README.md */,
 				1FB9906816FAC62500854971 /* Default-568h@2x.png */,
 				1FB9903F16FAC5B200854971 /* CedarPlywood */,
 				1FB9905516FAC5D300854971 /* Specs */,
