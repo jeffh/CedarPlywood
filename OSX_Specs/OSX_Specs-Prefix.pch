@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'OSX_Specs' target in the 'OSX_Specs' project
+//
+
+#define CEDAR_CUSTOM_COMPARATORS "CedarPlywood.h"
+
+#ifdef __OBJC__
+    #import <Cedar/SpecHelper.h>
+    #import <Foundation/Foundation.h>
+    #import <AppKit/AppKit.h>
+    #import <CoreGraphics/CoreGraphics.h>
+#endif

@@ -20,10 +20,24 @@
 		1FB9906A16FAC6D200854971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905016FAC5D300854971 /* UIKit.framework */; };
 		1FB9906B16FAC6D900854971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905316FAC5D300854971 /* CoreGraphics.framework */; };
 		1FB9907316FAD3E500854971 /* CGMatchersSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */; };
+		1FB9907B16FADB9000854971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9903D16FAC5B200854971 /* Foundation.framework */; };
+		1FB9908016FADB9100854971 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9907F16FADB9100854971 /* Cedar.framework */; };
+		1FB9908216FADB9100854971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9908116FADB9100854971 /* main.m */; };
+		1FB9908416FADB9100854971 /* AppKitSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9908316FADB9100854971 /* AppKitSpec.mm */; };
+		1FB9908B16FADC9300854971 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9908A16FADC9300854971 /* AppKit.framework */; };
+		1FB9908D16FADC9800854971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9908C16FADC9800854971 /* CoreGraphics.framework */; };
+		1FB9908F16FADCA700854971 /* CGMatchersSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9908E16FADCA700854971 /* CGMatchersSpec.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1FB9906C16FAC70500854971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB9903216FAC5B200854971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB9903916FAC5B200854971;
+			remoteInfo = CedarPlywood;
+		};
+		1FB9909016FADDB500854971 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FB9903216FAC5B200854971 /* Project object */;
 			proxyType = 1;
@@ -63,6 +77,15 @@
 		1FB9906F16FAD24F00854971 /* UIKitMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitMatchers.h; sourceTree = "<group>"; };
 		1FB9907116FAD37400854971 /* CGMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGMatchers.h; sourceTree = "<group>"; };
 		1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGMatchersSpec.mm; sourceTree = "<group>"; };
+		1FB9907A16FADB9000854971 /* OSX_Specs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSX_Specs; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB9907E16FADB9100854971 /* OSX_Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSX_Specs-Prefix.pch"; sourceTree = "<group>"; };
+		1FB9907F16FADB9100854971 /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cedar.framework; path = OSX_Specs/Frameworks/Cedar.framework; sourceTree = "<group>"; };
+		1FB9908116FADB9100854971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FB9908316FADB9100854971 /* AppKitSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppKitSpec.mm; sourceTree = "<group>"; };
+		1FB9908916FADC7E00854971 /* AppKitMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppKitMatchers.h; sourceTree = "<group>"; };
+		1FB9908A16FADC9300854971 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		1FB9908C16FADC9800854971 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1FB9908E16FADCA700854971 /* CGMatchersSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGMatchersSpec.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +110,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FB9907816FADB9000854971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB9908D16FADC9800854971 /* CoreGraphics.framework in Frameworks */,
+				1FB9908B16FADC9300854971 /* AppKit.framework in Frameworks */,
+				1FB9907B16FADB9000854971 /* Foundation.framework in Frameworks */,
+				1FB9908016FADB9100854971 /* Cedar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,6 +130,7 @@
 				1FB9906816FAC62500854971 /* Default-568h@2x.png */,
 				1FB9903F16FAC5B200854971 /* CedarPlywood */,
 				1FB9905516FAC5D300854971 /* Specs */,
+				1FB9907C16FADB9000854971 /* OSX_Specs */,
 				1FB9903C16FAC5B200854971 /* Frameworks */,
 				1FB9903B16FAC5B200854971 /* Products */,
 			);
@@ -106,6 +141,7 @@
 			children = (
 				1FB9903A16FAC5B200854971 /* libCedarPlywood.a */,
 				1FB9904F16FAC5D300854971 /* Specs.app */,
+				1FB9907A16FADB9000854971 /* OSX_Specs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +149,9 @@
 		1FB9903C16FAC5B200854971 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FB9908C16FADC9800854971 /* CoreGraphics.framework */,
+				1FB9908A16FADC9300854971 /* AppKit.framework */,
+				1FB9907F16FADB9100854971 /* Cedar.framework */,
 				1FB9905E16FAC5D500854971 /* Cedar-iOS.framework */,
 				1FB9903D16FAC5B200854971 /* Foundation.framework */,
 				1FB9905016FAC5D300854971 /* UIKit.framework */,
@@ -163,6 +202,7 @@
 			children = (
 				1FB9906F16FAD24F00854971 /* UIKitMatchers.h */,
 				1FB9907116FAD37400854971 /* CGMatchers.h */,
+				1FB9908916FADC7E00854971 /* AppKitMatchers.h */,
 			);
 			path = Matchers;
 			sourceTree = "<group>";
@@ -183,6 +223,33 @@
 				1FB9904216FAC5B200854971 /* CedarPlywood.h */,
 			);
 			path = Headers;
+			sourceTree = "<group>";
+		};
+		1FB9907C16FADB9000854971 /* OSX_Specs */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9908816FADBC700854971 /* Matchers */,
+				1FB9907D16FADB9100854971 /* Supporting Files */,
+			);
+			path = OSX_Specs;
+			sourceTree = "<group>";
+		};
+		1FB9907D16FADB9100854971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9908116FADB9100854971 /* main.m */,
+				1FB9907E16FADB9100854971 /* OSX_Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FB9908816FADBC700854971 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9908316FADB9100854971 /* AppKitSpec.mm */,
+				1FB9908E16FADCA700854971 /* CGMatchersSpec.mm */,
+			);
+			path = Matchers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +290,24 @@
 			productReference = 1FB9904F16FAC5D300854971 /* Specs.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1FB9907916FADB9000854971 /* OSX_Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB9908516FADB9100854971 /* Build configuration list for PBXNativeTarget "OSX_Specs" */;
+			buildPhases = (
+				1FB9907616FADB9000854971 /* ShellScript */,
+				1FB9907716FADB9000854971 /* Sources */,
+				1FB9907816FADB9000854971 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB9909116FADDB500854971 /* PBXTargetDependency */,
+			);
+			name = OSX_Specs;
+			productName = OSX_Specs;
+			productReference = 1FB9907A16FADB9000854971 /* OSX_Specs */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,6 +331,7 @@
 			targets = (
 				1FB9903916FAC5B200854971 /* CedarPlywood */,
 				1FB9904E16FAC5D300854971 /* Specs */,
+				1FB9907916FADB9000854971 /* OSX_Specs */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +347,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB9907616FADB9000854971 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R \"${TARGET_NAME}\"/Frameworks/Cedar.framework \"${BUILT_PRODUCTS_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FB9903616FAC5B200854971 /* Sources */ = {
@@ -280,6 +382,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1FB9907716FADB9000854971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB9908216FADB9100854971 /* main.m in Sources */,
+				1FB9908416FADB9100854971 /* AppKitSpec.mm in Sources */,
+				1FB9908F16FADCA700854971 /* CGMatchersSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -287,6 +399,11 @@
 			isa = PBXTargetDependency;
 			target = 1FB9903916FAC5B200854971 /* CedarPlywood */;
 			targetProxy = 1FB9906C16FAC70500854971 /* PBXContainerItemProxy */;
+		};
+		1FB9909116FADDB500854971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB9903916FAC5B200854971 /* CedarPlywood */;
+			targetProxy = 1FB9909016FADDB500854971 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,6 +512,7 @@
 					"-ObjC",
 					"-all_load",
 					"-lstdc++",
+					"-v",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,10 +537,48 @@
 					"-ObjC",
 					"-all_load",
 					"-lstdc++",
+					"-v",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1FB9908616FADB9100854971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OSX_Specs/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX_Specs/OSX_Specs-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1FB9908716FADB9100854971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OSX_Specs/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSX_Specs/OSX_Specs-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -451,6 +607,14 @@
 			buildConfigurations = (
 				1FB9906316FAC5D500854971 /* Debug */,
 				1FB9906416FAC5D500854971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB9908516FADB9100854971 /* Build configuration list for PBXNativeTarget "OSX_Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB9908616FADB9100854971 /* Debug */,
+				1FB9908716FADB9100854971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

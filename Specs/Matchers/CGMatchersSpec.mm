@@ -1,5 +1,3 @@
-#include "CedarPlywood.h"
-
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
 
@@ -55,6 +53,7 @@ describe(@"CoreGraphics Matchers", ^{
         CGAffineTransform equivalentTransform = CGAffineTransformMake(0, 1, 2, 3, 4, 5);
 
         it(@"should be equal for equivalent insets", ^{
+            NSLog(@"%@", NSStringFromCGAffineTransform(transform));
             transform should equal(equivalentTransform);
         });
 

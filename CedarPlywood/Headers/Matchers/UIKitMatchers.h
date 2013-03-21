@@ -1,7 +1,8 @@
 #import <UIKit/UIKit.h>
 
 namespace Cedar { namespace Matchers { namespace Comparators {
-    bool compare_equal(UIImage *actualValue, UIImage *expectedValue) {
+    template<typename U>
+    bool compare_equal(UIImage *actualValue, const U & expectedValue) {
         return [actualValue isEqual:expectedValue] || [UIImagePNGRepresentation(actualValue) isEqual:UIImagePNGRepresentation(expectedValue)];
     }
 
