@@ -9,8 +9,28 @@
 /* Begin PBXBuildFile section */
 		1FB9903E16FAC5B200854971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9903D16FAC5B200854971 /* Foundation.framework */; };
 		1FB9904316FAC5B200854971 /* CedarPlywood.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FB9904216FAC5B200854971 /* CedarPlywood.h */; };
-		1FB9904516FAC5B200854971 /* CedarPlywood.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9904416FAC5B200854971 /* CedarPlywood.m */; };
+		1FB9905116FAC5D300854971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905016FAC5D300854971 /* UIKit.framework */; };
+		1FB9905216FAC5D300854971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9903D16FAC5B200854971 /* Foundation.framework */; };
+		1FB9905416FAC5D300854971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905316FAC5D300854971 /* CoreGraphics.framework */; };
+		1FB9905A16FAC5D300854971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FB9905816FAC5D300854971 /* InfoPlist.strings */; };
+		1FB9905C16FAC5D300854971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9905B16FAC5D300854971 /* main.m */; };
+		1FB9905F16FAC5D500854971 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905E16FAC5D500854971 /* Cedar-iOS.framework */; };
+		1FB9906116FAC5D500854971 /* UIKitMatchersSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9906016FAC5D500854971 /* UIKitMatchersSpec.mm */; };
+		1FB9906916FAC62600854971 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB9906816FAC62500854971 /* Default-568h@2x.png */; };
+		1FB9906A16FAC6D200854971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905016FAC5D300854971 /* UIKit.framework */; };
+		1FB9906B16FAC6D900854971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB9905316FAC5D300854971 /* CoreGraphics.framework */; };
+		1FB9907316FAD3E500854971 /* CGMatchersSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FB9906C16FAC70500854971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FB9903216FAC5B200854971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FB9903916FAC5B200854971;
+			remoteInfo = CedarPlywood;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1FB9903816FAC5B200854971 /* CopyFiles */ = {
@@ -30,7 +50,20 @@
 		1FB9903D16FAC5B200854971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FB9904116FAC5B200854971 /* CedarPlywood-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CedarPlywood-Prefix.pch"; sourceTree = "<group>"; };
 		1FB9904216FAC5B200854971 /* CedarPlywood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CedarPlywood.h; sourceTree = "<group>"; };
-		1FB9904416FAC5B200854971 /* CedarPlywood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CedarPlywood.m; sourceTree = "<group>"; };
+		1FB9904F16FAC5D300854971 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FB9905016FAC5D300854971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FB9905316FAC5D300854971 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FB9905716FAC5D300854971 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		1FB9905916FAC5D300854971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1FB9905B16FAC5D300854971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FB9905D16FAC5D300854971 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		1FB9905E16FAC5D500854971 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Specs/Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		1FB9906016FAC5D500854971 /* UIKitMatchersSpec.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UIKitMatchersSpec.mm; path = Specs/Matchers/UIKitMatchersSpec.mm; sourceTree = SOURCE_ROOT; };
+		1FB9906816FAC62500854971 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1FB9906F16FAD24F00854971 /* UIKitMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitMatchers.h; sourceTree = "<group>"; };
+		1FB9907116FAD37400854971 /* CGMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGMatchers.h; sourceTree = "<group>"; };
+		1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGMatchersSpec.mm; sourceTree = "<group>"; };
+		1FB9907416FAD4FD00854971 /* AllMatchers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllMatchers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +71,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB9906B16FAC6D900854971 /* CoreGraphics.framework in Frameworks */,
+				1FB9906A16FAC6D200854971 /* UIKit.framework in Frameworks */,
 				1FB9903E16FAC5B200854971 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB9904C16FAC5D300854971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB9905116FAC5D300854971 /* UIKit.framework in Frameworks */,
+				1FB9905216FAC5D300854971 /* Foundation.framework in Frameworks */,
+				1FB9905416FAC5D300854971 /* CoreGraphics.framework in Frameworks */,
+				1FB9905F16FAC5D500854971 /* Cedar-iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,7 +94,9 @@
 		1FB9903116FAC5B200854971 = {
 			isa = PBXGroup;
 			children = (
+				1FB9906816FAC62500854971 /* Default-568h@2x.png */,
 				1FB9903F16FAC5B200854971 /* CedarPlywood */,
+				1FB9905516FAC5D300854971 /* Specs */,
 				1FB9903C16FAC5B200854971 /* Frameworks */,
 				1FB9903B16FAC5B200854971 /* Products */,
 			);
@@ -58,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				1FB9903A16FAC5B200854971 /* libCedarPlywood.a */,
+				1FB9904F16FAC5D300854971 /* Specs.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,7 +114,10 @@
 		1FB9903C16FAC5B200854971 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1FB9905E16FAC5D500854971 /* Cedar-iOS.framework */,
 				1FB9903D16FAC5B200854971 /* Foundation.framework */,
+				1FB9905016FAC5D300854971 /* UIKit.framework */,
+				1FB9905316FAC5D300854971 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,8 +125,9 @@
 		1FB9903F16FAC5B200854971 /* CedarPlywood */ = {
 			isa = PBXGroup;
 			children = (
+				1FB9906E16FAD21800854971 /* Matchers */,
+				1FB9907416FAD4FD00854971 /* AllMatchers.h */,
 				1FB9904216FAC5B200854971 /* CedarPlywood.h */,
-				1FB9904416FAC5B200854971 /* CedarPlywood.m */,
 				1FB9904016FAC5B200854971 /* Supporting Files */,
 			);
 			path = CedarPlywood;
@@ -86,6 +139,44 @@
 				1FB9904116FAC5B200854971 /* CedarPlywood-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FB9905516FAC5D300854971 /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9907016FAD28800854971 /* Matchers */,
+				1FB9905616FAC5D300854971 /* Supporting Files */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		1FB9905616FAC5D300854971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9905716FAC5D300854971 /* Specs-Info.plist */,
+				1FB9905816FAC5D300854971 /* InfoPlist.strings */,
+				1FB9905B16FAC5D300854971 /* main.m */,
+				1FB9905D16FAC5D300854971 /* Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FB9906E16FAD21800854971 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9906F16FAD24F00854971 /* UIKitMatchers.h */,
+				1FB9907116FAD37400854971 /* CGMatchers.h */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
+		1FB9907016FAD28800854971 /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				1FB9906016FAC5D500854971 /* UIKitMatchersSpec.mm */,
+				1FB9907216FAD3E500854971 /* CGMatchersSpec.mm */,
+			);
+			path = Matchers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +198,24 @@
 			productName = CedarPlywood;
 			productReference = 1FB9903A16FAC5B200854971 /* libCedarPlywood.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		1FB9904E16FAC5D300854971 /* Specs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FB9906216FAC5D500854971 /* Build configuration list for PBXNativeTarget "Specs" */;
+			buildPhases = (
+				1FB9904B16FAC5D300854971 /* Sources */,
+				1FB9904C16FAC5D300854971 /* Frameworks */,
+				1FB9904D16FAC5D300854971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FB9906D16FAC70500854971 /* PBXTargetDependency */,
+			);
+			name = Specs;
+			productName = Specs;
+			productReference = 1FB9904F16FAC5D300854971 /* Specs.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -130,20 +239,61 @@
 			projectRoot = "";
 			targets = (
 				1FB9903916FAC5B200854971 /* CedarPlywood */,
+				1FB9904E16FAC5D300854971 /* Specs */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB9904D16FAC5D300854971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB9905A16FAC5D300854971 /* InfoPlist.strings in Resources */,
+				1FB9906916FAC62600854971 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FB9903616FAC5B200854971 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FB9904516FAC5B200854971 /* CedarPlywood.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FB9904B16FAC5D300854971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB9905C16FAC5D300854971 /* main.m in Sources */,
+				1FB9906116FAC5D500854971 /* UIKitMatchersSpec.mm in Sources */,
+				1FB9907316FAD3E500854971 /* CGMatchersSpec.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FB9906D16FAC70500854971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FB9903916FAC5B200854971 /* CedarPlywood */;
+			targetProxy = 1FB9906C16FAC70500854971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FB9905816FAC5D300854971 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FB9905916FAC5D300854971 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1FB9904616FAC5B200854971 /* Debug */ = {
@@ -223,6 +373,53 @@
 			};
 			name = Release;
 		};
+		1FB9906316FAC5D500854971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1FB9906416FAC5D500854971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Specs/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -240,6 +437,14 @@
 			buildConfigurations = (
 				1FB9904916FAC5B200854971 /* Debug */,
 				1FB9904A16FAC5B200854971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FB9906216FAC5D500854971 /* Build configuration list for PBXNativeTarget "Specs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB9906316FAC5D500854971 /* Debug */,
+				1FB9906416FAC5D500854971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

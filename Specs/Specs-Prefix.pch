@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Specs' target in the 'Specs' project
+//
+
+#define CEDAR_CUSTOM_COMPARATORS "CedarPlywood.h"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <Cedar-iOS/SpecHelper.h>
+#endif
